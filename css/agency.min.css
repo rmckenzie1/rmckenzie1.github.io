@@ -1,3 +1,7 @@
+*{
+    overflow: auto;
+}
+
 
 body {
     overflow-x: hidden;
@@ -807,3 +811,4 @@ ul.social-buttons li a:hover {
 
 }
 }
+
