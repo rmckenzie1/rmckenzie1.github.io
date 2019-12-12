@@ -812,3 +812,14 @@ ul.social-buttons li a:hover {
 }
 }
 
+@media (max-width: 600px){
+    header.masthead .intro-text .intro-heading {
+        font-size: 40px;
+    }
+    .des1{
+    
+    min-width: 100%;
+}
+    }
+}
+
