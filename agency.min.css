@@ -802,7 +802,8 @@ ul.social-buttons li a:hover {
 
 @media (max-width:900px) {
     .me {
-    margin-right: 100px;
+        
+/*    margin-right: 100px;*/
     
 /*
     margin: 400px;
