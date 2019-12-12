@@ -771,11 +771,20 @@ ul.social-buttons li a:hover {
     width: 60%;
     padding: 20px;
     margin: 10px;
+    min-width: 400px;
+}
+
+.des1 {
+    text-align: left;
+    float: right;
+    width: 60%;
+    padding: 20px;
+    margin: 10px;
     min-width: 450px;
 }
 
 .me{
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 50%;
     float: left;
@@ -791,14 +800,10 @@ ul.social-buttons li a:hover {
 
 
 
-@media (max-width:900px) {
+@media (max-width:600px) {
     .me {
-    margin-right: 100px;
-    
-/*
-    margin: 400px;
-    float: left;
-    min-width: 100%
-*/
+       width:300px
+
+
 }
 }
