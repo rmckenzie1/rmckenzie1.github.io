@@ -1,4 +1,4 @@
-*{
+html, body{
     overflow: auto;
 }
 
@@ -247,6 +247,7 @@ header.masthead .intro-text .intro-heading {
     }
 
     header.masthead .intro-text .intro-heading {
+        overflow: hidden;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -328,7 +329,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio * {
-    z-index: 2
+    z-index: 2;
+        overflow: visible;
 }
 
 @media (min-width:767px) {
@@ -396,7 +398,8 @@ header.masthead .intro-text .intro-heading {
     height: 75px;
     margin-left: 35px;
     transform: rotate(45deg);
-    background-color: #212529
+    background-color: #212529;
+        overflow: visible;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -823,3 +826,6 @@ ul.social-buttons li a:hover {
     }
 }
 
+form{
+    overflow: hidden;
+}
