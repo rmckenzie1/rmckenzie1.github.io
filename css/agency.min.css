@@ -780,11 +780,11 @@ ul.social-buttons li a:hover {
     width: 60%;
     padding: 20px;
     margin: 10px;
-/*    min-width: 450px;*/
+    min-width: 450px;
 }
 
 .me{
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 50%;
     float: left;
