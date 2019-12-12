@@ -635,9 +635,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
     background-color: #212529;
-    background-image: url(../img/map-image.png);
+    background-image: url(../space.jpg);
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    background-size: cover;
 }
 
 section#contact .section-heading {
@@ -736,6 +737,8 @@ ul.social-buttons li a:hover {
 .row {
     display: block;
     box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
 }
 
 .column {
