@@ -1,3 +1,7 @@
+html, body{
+    overflow: auto;
+}
+
 
 body {
     overflow-x: hidden;
@@ -193,11 +197,20 @@ header.masthead {
     height: 100vh;    
 }
 #myVideo{
-    position: absolute;
+/*    position: absolute;*/
+/*
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+*/
+
+
+background-image: url(../space2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     
 }
 
@@ -243,6 +256,7 @@ header.masthead .intro-text .intro-heading {
     }
 
     header.masthead .intro-text .intro-heading {
+        overflow: hidden;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -324,7 +338,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio * {
-    z-index: 2
+    z-index: 2;
+        overflow: visible;
 }
 
 @media (min-width:767px) {
@@ -392,7 +407,8 @@ header.masthead .intro-text .intro-heading {
     height: 75px;
     margin-left: 35px;
     transform: rotate(45deg);
-    background-color: #212529
+    background-color: #212529;
+        overflow: visible;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -432,6 +448,10 @@ header.masthead .intro-text .intro-heading {
 .timeline > li:before {
     display: table;
     content: ' '
+}
+.timeline > li:after, .timeline > li:before {
+  display: table;
+  content: ' ';
 }
 
 .timeline > li:after {
@@ -628,9 +648,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
     background-color: #212529;
-    background-image: url(../img/map-image.png);
+    background-image: url(../space2.jpg);
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    background-size: cover;
 }
 
 section#contact .section-heading {
@@ -729,6 +750,8 @@ ul.social-buttons li a:hover {
 .row {
     display: block;
     box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
 }
 
 .column {
@@ -746,7 +769,7 @@ ul.social-buttons li a:hover {
     
     header.masthead .intro-text {
         
-        padding-top: 300px;
+        padding-top: 170px;
         padding-bottom: 200px;
         text-align: center;     
     }
@@ -761,7 +784,6 @@ ul.social-buttons li a:hover {
 
 #bgc {
    background-image: url(../bluebg.jpg);
-   background-color:bisque;
     color: white;
     
 }
@@ -784,7 +806,7 @@ ul.social-buttons li a:hover {
 }
 
 .me{
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 50%;
     float: left;
@@ -807,3 +829,28 @@ ul.social-buttons li a:hover {
 
 }
 }
+
+@media (max-width: 600px){
+    header.masthead .intro-text .intro-heading {
+        font-size: 40px;
+    }
+    .des1{
+    
+    min-width: 100%;
+}
+    }
+}
+
+form{
+    overflow: hidden;
+}
+
+@media (max-width: 769px){
+
+.timeline {
+
+    border-radius: 50px;
+/*    background-color: red;*/
+    }
+}
+    
